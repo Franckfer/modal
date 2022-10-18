@@ -33,8 +33,8 @@
             </div>
 
             <div>
-                <form action="" class="modalInput">
-                    <input class="inputText" type="text" placeholder="Escriba su mensaje">
+                <form id="form" class="modalInput">
+                    <input class="inputText" name="inputText" type="text" placeholder="Escriba su mensaje">
                     <button class="btnSend">
                         <img src="send.svg" alt="send" type="submit" />
                     </button>
@@ -48,6 +48,13 @@
         <img src="phone.svg" alt="phone">
     </button>
 
+    <script src="https://cdn.socket.io/3.1.3/socket.io.min.js" integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/socket.io-client@4.5.3/dist/socket.io.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/laravel-echo@1.6.1/dist/echo.common.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
     <script src="/box.js"></script>
 </body>
 </html>
